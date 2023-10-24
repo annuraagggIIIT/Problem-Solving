@@ -7,7 +7,7 @@ int main(){
     printf("Enter the integer: ");
     scanf("%d",&n);
     for (int i = 0; i <n; i++) {
-        printf("%d",a);
+        printf("%d\n",a);
         int c = a+b;
         a=b;
         b=c;
