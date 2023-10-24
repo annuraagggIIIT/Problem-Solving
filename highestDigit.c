@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int findHighestDigit(int number) {
-    int highestDigit = 0;
+
+int findHighestDigit(long long  number) {
+    long long  highestDigit = 0;
 
     number = (number < 0) ? -number : number;
 
@@ -10,6 +11,7 @@ int findHighestDigit(int number) {
 
         if (currentDigit > highestDigit) {
             highestDigit = currentDigit;
+	    if (highestDigit == 9) break;
         }
 
         number /= 10;
@@ -19,13 +21,13 @@ int findHighestDigit(int number) {
 }
 
 int main() {
-    int number;
+    long long number;
     
     printf("Enter a number: ");
-    scanf("%d", &number);
+    scanf("%lli", &number);
 
     int highest = findHighestDigit(number);
-    printf("The highest digit in %d is %d\n", number, highest);
+    printf("The highest digit in %lli is %d\n", number, highest);
     
     return 0;
 }
