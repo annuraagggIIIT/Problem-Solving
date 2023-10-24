@@ -3,6 +3,9 @@
 
 Welcome to the Problem-Solving open source contribution repository!
 
+## NOTE 
+As the Pull Request Count is high , star the repo , follow [Anurag Khanna](https://github.com/annuraagggIIIT) ,[LinkedIn](https://www.linkedin.com/in/anuragkhannaiiitm)
+and dont forget to fork it.
 ## Table of Contents
 - [Introduction](#introduction)
 - [How to Contribute](#how-to-contribute)
@@ -37,7 +40,7 @@ For feature requests or enhancements, open an issue to discuss your ideas before
 4. Participate in the review process and address feedback.
 
 ## Development Setup
-Refer the video Below for easy Understanding:
+Refer the video Below for easy Understanding: 
 
 ## Code of Conduct
 
