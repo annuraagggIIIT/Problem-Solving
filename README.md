@@ -37,8 +37,7 @@ For feature requests or enhancements, open an issue to discuss your ideas before
 4. Participate in the review process and address feedback.
 
 ## Development Setup
-
-Include instructions on how to set up a development environment for your project. This may include dependencies, installation steps, and configuration.
+Refer the video Below for easy Understanding:
 
 ## Code of Conduct
 
