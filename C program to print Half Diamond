@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(){
+    int n,i,j,col=1;
+    printf("Enter the number of columns(maximum stars in a row):\n");
+    scanf("%d",&n);
+    printf("\n");
+    for(i=1;i<=n*2;i++){
+        for(j=0;j<col;j++)
+            printf("* ");
+        printf("\n");
+        if(i>=n)
+            col--;
+        else 
+            col++;
+    }
+    return 0;
+}
