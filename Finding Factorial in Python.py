@@ -10,3 +10,6 @@ def fact(a):            #defining a function to calculate factorial
 #main
 a=int(input("Enter a number whose factorial is to be found\n"))
 fact(a)                 #calling factorial function
+
+
+
