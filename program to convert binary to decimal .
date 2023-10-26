@@ -1,0 +1,7 @@
+binary = input("Enter a binary number: ")
+
+if not all(bit in '01' for bit in binary):
+    print("Invalid binary number. Please enter a valid binary number.")
+else:
+    decimal = int(binary, 2)
+    print("The decimal equivalent of", binary, "is", decimal)
