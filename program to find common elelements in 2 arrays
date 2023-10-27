@@ -1,5 +1,0 @@
-def find_common_elements(array1, array2):
-    set1 = set(array1)
-    set2 = set(array2)
-    common_elements = list(set1.intersection(set2))
-    return common_elements
