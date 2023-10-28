@@ -1,7 +1,0 @@
-def sort_descending(arr):
-    arr.sort(reverse=True)
-
-arr = [5, 3, 1, 4, 2]
-sort_descending(arr)
-
-print("Array in descending order:", arr)

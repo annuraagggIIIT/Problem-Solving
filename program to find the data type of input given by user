@@ -1,3 +1,0 @@
-user_input = input("Enter a value: ")
-data_type = type(user_input)
-print(f"The data type of the input is: {data_type}")
