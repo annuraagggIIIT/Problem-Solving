@@ -1,0 +1,54 @@
+#include <iostream>
+#include <string>
+
+using std::cin;
+using std::cout;
+using std::endl using std::string;
+
+int main() {
+  string str1 = "this is random string oiwao2j3";
+  string str2 = "oiwao2j3";
+  string str3 = "random s tring";
+
+  str1.find(str2) != string::npos
+      ? cout << "str1 contains str2" << endl
+      : cout << "str1 does not contain str3" << endl;
+
+  str1.find(str3) != string::npos
+
+
+
+var adpushup = window.adpushup = window.adpushup || {};
+adpushup.que = adpushup.que || [];
+adpushup.que.push(function() {
+adpushup.triggerAd("6121e8ef-94ed-4406-9a60-369fe674d120");
+});
+
+
+
+window.adpushup.adpTags.que.push(function(){
+window.adpushup.adpTags.display("ADP_45492_300x250_00000001-59c22cf4-69c8-4a53-b682-d99b0acd050b");
+});
+
+
+
+
+var adpushup = window.adpushup = window.adpushup || {};
+adpushup.que = adpushup.que || [];
+adpushup.que.push(function() {
+adpushup.triggerAd("6121e8ef-94ed-4406-9a60-369fe674d120");
+});
+
+
+
+window.adpushup.adpTags.que.push(function(){
+window.adpushup.adpTags.display("ADP_45492_300x250_00000001-49d360bf-6705-47ba-8575-63610dcd1f1c");
+});
+
+
+
+      ? cout << "str1 contains str3" << endl
+      : cout << "str1 does not contain str3" << endl;
+
+  return EXIT_SUCCESS;
+}
