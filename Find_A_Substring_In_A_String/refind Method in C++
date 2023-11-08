@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+
+using std::cin;
+using std::cout;
+using std::endl using std::string;
+
+
+window.adpushup.adpTags.que.push(function(){
+window.adpushup.adpTags.display("6_ADP_45492_728X90_fff43772-b6e6-4191-b364-4a6f76871916");
+});
+
+using std::stoi;
+
+int main() {
+  string str1 = "this is random string oiwao2j3";
+  string str2 = "oiwao2j3";
+
+  str1.rfind(str2) != string::npos
+      ? cout << "last occurrence of str3 starts at pos " << str1.rfind(str2)
+             << endl
+      : cout << "no match!" << endl;
+
+  return EXIT_SUCCESS;
+}
