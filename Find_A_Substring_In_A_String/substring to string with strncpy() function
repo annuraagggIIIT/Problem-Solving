@@ -1,0 +1,43 @@
+// C implementation of code
+#include <stdio.h>
+#include <string.h>
+
+// Driver code
+int main()
+{
+	int pos, len;
+
+	// Testcase1
+	char string[14] = "geeksforgeeks";
+	char substring[14];
+
+	// Initialize pos, len i.e., starting
+	// index and len upto which we have to
+	// get substring respectively.
+	pos = 6;
+	len = 5;
+	printf("String: %s ", string);
+	printf("\nsubstring is: ");
+
+	// Using strncpy function to 
+	// copy the substring
+	strncpy(substring,string+(pos-1),len);
+	printf(substring);
+
+	// Testcase2
+	char string2[5] = "abcde";
+	char substring2[5];
+	
+	pos = 1;
+	len = 3;
+	printf("\nString: %s ", string2);
+	printf("\nsubstring is: ");
+
+	// Using strncpy function to 
+	// copy the substring
+	strncpy(substring2,string2+(pos-1),len);
+	printf(substring2);
+	return 0;
+}
+
+// This code is contributed by Pushpesh Raj.
