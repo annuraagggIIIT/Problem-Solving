@@ -1,0 +1,16 @@
+function first10Odd(num) {
+    let arr = [];
+    if(num % 2 === 0) {
+        return false
+    } else {
+        arr.push(num);
+    }
+    let curr = num;
+    while(arr.length < 10) {
+        curr = curr + num;
+        if(curr % 2 !== 0) 
+        {
+          arr.push(curr);
+        }
+    }
+}
